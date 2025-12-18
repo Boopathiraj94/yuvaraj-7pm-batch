@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table {
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid;
+            border-collapse: collapse;
+
+        }
+
+        /* th{
+             border: 2px solid;
+        }
+        td{
+             border: 2px solid;
+        } */
+
+        tr:nth-child(even){
+            background-color: salmon;
+        }
+        tr:nth-child(odd){
+            background-color: darkmagenta;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Table</h1>
+    <!-- 
+    table
+
+    tr => table row
+    th => table head
+    td => table data
+    
+    html 5 (sematic) 
+    ======
+    thead
+    tbody
+    tfoot
+caption => title
+
+colgroup , col => columnwise
+
+attribute
+==========
+border
+align
+colspan
+rowspan
+style
+span
+
+
+    -->
+
+    <table>
+        <caption>Student Fees Report</caption>
+        <colgroup>
+            <col>
+            <col   >
+            <col >
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Sno</th>
+                <th>Student Name</th>
+                <th>Class</th>
+                <th>Section</th>
+                <th>Fees</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td align="center">Yuvaraj</td>
+                <td rowspan="2">X</td>
+                <td rowspan="2">A</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td align="center">Hari</td>
+
+                <td>4000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td align="center">Ganesh</td>
+                <td>Vii</td>
+                <td>C</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td align="center">Yuvaraj</td>
+                <td>X</td>
+                <td>B</td>
+                <td>6000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" align="right">Total</td>
+                <td>17000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
