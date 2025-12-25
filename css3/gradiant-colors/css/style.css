@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    border: 2px solid;
+    height: 50vh;
+    /* viewport height */
+    /* background:; */
+    /* background-image: linear-gradient(teal,orange); */
+
+    /* background:linear-gradient(to right,teal,orange); */
+    /* background:linear-gradient(to right,teal,orange,red,blue,green,pink,darkblue); */
+    /* background: linear-gradient(to left, teal, orange); */
+    /* background: linear-gradient(to left bottom, teal, orange); */
+    /* background: linear-gradient(200deg, teal, orange); */
+
+    /* background:linear-gradient(teal 3%,orange 5% , blue); */
+
+    background: repeating-linear-gradient(blue 2%, green 10%);
+    font-size: 100px;
+    font-weight: 700;
+    background-clip: text;
+    color: transparent;
+}
+
+.box1 {
+    border: 2px solid;
+    height: 50vh;
+    font-size: 100px;
+    font-weight: 700;
+
+    /* background: radial-gradient(blue ,red,green,orange ,teal); */
+    /* background-image: radial-gradient(farthest-corner  at 10% 55%, red, yellow, blue); */
+    background-clip: text;
+    color: transparent;
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+
+.box2 {
+    border: 2px solid;
+    width: 400px;
+    height: 400px;
+    font-size: 50px;
+    font-weight: 700;
+
+    /* background: conic-gradient(red,green); */
+    /* background-image: conic-gradient(red, yellow, green, blue, black); */
+    /* background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg); */
+    /* background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, #0073ff 180deg, green 180deg, green 270deg, blue 270deg); */
+    /* background-image: conic-gradient(from 90deg, red, yellow, green); */
+    background-image: conic-gradient(at 60% 45%, red, yellow, green);
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-clip: text;
+    color: transparent;
+     transition: 1s;
+}
+
+.box2:hover{
+    transform: rotate(360deg);
+   
+}
