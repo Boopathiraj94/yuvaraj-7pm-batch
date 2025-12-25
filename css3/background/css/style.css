@@ -1,0 +1,75 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     /* background-image: url(../images/butterflies-icon-free-photo-hd-background_915071-93528.jpg); */
+
+     /* background-repeat: no-repeat; */
+     /* background-repeat: repeat-x; */
+     /* background-repeat: repeat-y; */
+     /* background-repeat: repeat; by default */
+
+
+
+     /* border: 2px solid; */
+
+     /* height: 100vh; */
+     /* background-position: center; */
+     /* background-size: cover; */
+     /* background-size: contain; */
+     /* background-position: center; */
+     /* background-position: left top; */
+     /* background-position: left center; */
+     /* background-position: left bottom  ; */
+     /* background-position: center top;
+      background-position:center;
+      background-position:center bottom;
+      background-position:right top;
+      background-position:right center;
+      background-position:right bottom; */
+     /* background-position:30px 60px; */
+     /* background-position: 40% 20%; */
+
+      border: 10px solid red; 
+ }
+
+ .banner
+{
+    border: 2px solid;
+    height: 100vh;
+    background-image:url(../images/butterflies-icon-free-photo-hd-background_915071-93528.jpg);  
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: contain; */
+    background-size: cover;
+     background-attachment: fixed;
+}
+ .banner1
+{
+    border: 2px solid;
+    height: 40vh;
+    /* background-image:url(../images/istockphoto-1550071750-612x612.jpg);  
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* background-size: contain; */
+    /* background-size: cover;
+
+    background-attachment: fixed; */
+
+    /* background: url(../images/istockphoto-1550071750-612x612.jpg) no-repeat center / cover ;
+    background-attachment: fixed; */
+
+    /* background: teal; */
+}
+ .banner2
+{
+    border: 2px solid;
+    height: 40vh;
+    background-image:url(../images/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg);  
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: contain; */
+    background-size: cover;
+}
