@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* decendant ( ) */
+
+/* section p{
+    background: teal;
+} */
+
+/* child  */
+/* section>div{
+    background-color: darkorchid;
+    padding: 20px;
+}
+
+section>div>p{
+    background: saddlebrown;
+}
+p{
+    background: darkred;
+} */
+ 
+
+/* p:nth-child(2){
+  background-color: seagreen;
+} */
+
+h1~p{
+    background-color: darkmagenta;
+}
+
+h2+p{
+    background: seagreen;
+}

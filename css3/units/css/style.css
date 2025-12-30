@@ -1,0 +1,44 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+
+}
+
+/* html {
+    font-size: 10px;
+}
+
+p {
+    /* font-size: 1cm; */
+    /* font-size: 1mm; */
+    /* font-size: 1pt; */
+    /* font-size: 1in; */
+    /* font-size: 1pc; */
+    /* font-size: 10px; 
+
+    font-size: 3em;
+} */
+
+/* div{
+    font-size: 12px;
+}
+
+div p{
+    font-size: 2em;
+} */
+
+/* p{
+    font-size: 2rem;
+} */
+
+ .box{
+    border: 2px solid;
+ }
+
+ .box1{
+    width: 50px;
+ }
+
+ .box2{
+    width: 30%;
+ }
