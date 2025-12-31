@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.name {
+    /* background: #6d6d6d;
+    color: white; */
+
+    /* horizontal alignment */
+    /* text-align: start; */
+    /* text-align: left; */
+    /* text-align: center; */
+    /* text-align: right; */
+    /* text-align: end; */
+
+
+    /* direction: rtl;
+    unicode-bidi: bidi-override;
+     */
+
+    text-shadow: 2px 6px 3px #9C27B0 , 3px 7px 3px red;
+
+}
+
+.name span {
+    /* vertical-align: super; */
+    /* vertical-align: sub; */
+}
+
+
+p {
+    /* text-align-last: center; */
+    /* text-align-last: end; */
+    /* text-align: justify; */
+    /* text-align: center; */
+    /* text-decoration-line: underline; */
+    /* text-decoration-line: overline; */
+    /* text-decoration-line: line-through;
+
+     text-decoration-color: darkcyan;
+     text-decoration-thickness: 7px;
+
+     text-decoration-style: double; */
+
+
+    /* text-decoration: 5px overline wavy darkmagenta; */
+    /* text-decoration:5px underline overline wavy darkblue; */
+}
+
+
+a {
+    text-decoration: none;
+
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+}
+
+p {
+    text-indent: 10rem;
+    /* word-spacing: 10px; */
+    /* letter-spacing: 20px; */
+    /* line-height: 30px; */
+    /* white-space: nowrap; */
+}
