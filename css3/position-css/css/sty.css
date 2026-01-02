@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid;
+    height: 50vh;
+    position: relative;
+}
+
+.box{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.box2{
+    position: absolute;
+    bottom: 0;
+}
+
+.box3{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.box4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box5{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.box1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+}
