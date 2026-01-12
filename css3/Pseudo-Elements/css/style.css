@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+
+h2::before{
+    /* content: "Hi "; */
+    content: url(../images/istockphoto-172759822-612x612.jpg);
+}
+
+h2::after{
+    content: " Bye";
+}
+
+/* p::selection{
+    background: seagreen;
+    color: yellow;
+}
+.sel::selection{
+    background: saddlebrown;
+    color: yellow;
+} */
+
+/* ::first-letter{
+    background: darkgreen;
+    color: saddlebrown;
+}
+p::first-letter{
+    background: darkgreen;
+    color: saddlebrown;
+} */
+
+/* ::first-line{
+    background: darkgreen;
+    color: saddlebrown;
+} */
+/* p::first-line{
+    background: darkgreen;
+    color: saddlebrown;
+} */
+
+/* li::marker{
+    content: url(../images/istockphoto-172759822-612x612.jpg);
+} */
+
+
+/* 
+window + .
+*/
+
+.bg-teal{
+    background: teal;
+}
+
+
+li:nth-child(odd){
+    background-color: seagreen;
+}
+li:nth-child(even){
+    background-color: darkmagenta;
+}
