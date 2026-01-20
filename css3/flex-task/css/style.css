@@ -7,6 +7,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header {
 
     display: flex;
@@ -15,6 +19,10 @@ header {
     background: #ece2a5ad;
 
     box-shadow: 0 0 20px;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .logo {
@@ -78,4 +86,86 @@ nav ul li a {
 .banner {
     height: 80vh;
     background: url('../images/best-hd-background-6g4lg4s48zbikblk.jpg') no-repeat center / cover;
+
+    position: relative;
+
+}
+
+/* banner box */
+
+.banner-box {
+    /* border: 2px solid red; */
+    width: 600px;
+    /* height: 400px; */
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    padding: 30px;
+
+    background: rgba(254, 255, 209, 0.584);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px ;
+    border-radius: 30px;
+}
+
+.banner-box p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.banner-box h1 {
+    font-size: 60px;
+    color: #042f4a;
+    font-weight: 800;
+
+
+}
+
+.c-black {
+    color: black !important;
+}
+
+.Amt {
+    color: darkgoldenrod;
+}
+
+.btns {
+    margin-top: 25px;
+}
+
+.btns a {
+    background: darkcyan;
+    padding: 10px 15px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    transition: 1s;
+   
+}
+
+.btns a:nth-child(2) {
+    background: white;
+    color: black;
+}
+
+.btns a:hover:nth-child(2) {
+    background: darkcyan;
+    color: white;
+}
+
+.btns a:hover:nth-child(1) {
+    background: white;
+    color: black;
+     
+}
+
+
+.contact , .about, .shop{
+    border: 2px solid;
+    height: 100vh;
+    padding-top: 100px;
 }
