@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    border: 2px solid;
+    width: 300px;
+    height: 300px;
+    background: teal;
+    /* transition-duration: 0.5s;
+    transition-delay: 1s;
+
+    transition-property: width;
+
+    transition-timing-function: ease; */
+
+    /* 
+    ease ,ease-in ,ease-out,ease-in-out, linear ,cubic-bazear()
+    */
+
+    transition: width 2s 3s ease ,height 2s ease-in-out;
+
+    /* 
+    property
+    delay
+    duration
+    timing-function
+    
+    */
+}
+
+.box:hover{
+    width: 600px;
+    height: 600px;
+    background: saddlebrown;
+}
