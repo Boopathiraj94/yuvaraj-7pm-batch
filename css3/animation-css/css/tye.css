@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    /* border: 2px solid red; */
+    font-size: 70px;
+    width: 25%;
+    overflow: hidden;
+    border-right: 5px solid;
+    
+    animation: cursor 2s infinite  ease, typing 5s steps(11)  infinite ;
+}
+
+@keyframes cursor {
+    from {
+        border-right: 5px solid transparent;
+    }
+
+}
+
+
+@keyframes typing {
+    from {
+        width: 0px;
+    }
+}
