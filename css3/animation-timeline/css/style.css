@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100vh;
+}
+
+.box {
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+    background: tan;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* animation: scrollmove 1s linear; */
+    /* animation-timeline: view(); */
+    /* animation-timeline: view();
+    animation-range: 10%; */
+
+}
+
+.c1 .box {
+    background: salmon;
+}
+
+@keyframes scrollmove {
+
+    from {
+
+        transform: rotate(0);
+    }
+
+    to {
+        transform:rotate(360deg);
+    }
+}
